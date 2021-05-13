@@ -14,6 +14,20 @@ The analysis performed compares the total daily volumes and year returns for 12 
 
 ![VBA_Stock_Analysis_2017](/Resources/VBA_Stock_Analysis_2017.PNG) <img height="350" hspace="20"/> ![VBA_Stock_Analysis_2018](/Resources/VBA_Stock_Analysis_2018.PNG)
 
+For this project, we wanted to look at the total daily volumes and year returns for the 12 green energy stocks above. The total daily volumes show often the stock was traded. This was calculated by summing up all the daily volumes for each stock. The yearly return shows the percentage increase or decrease in in stock price. We first had to find the price of the stock at the beginning of the year and the price of the stock at the end of the year. Then we divided the ending price by the starting price and subtracted 1 to get the yearly return for each stock. The two charts above show our results for 2017 and 2018. 
+
+#### Findings for 2017
+- All stocks, except for TERP, had a positive annual return
+- Based on this chart alone, I don’t see a correlation between the total daily volumes and the yearly returns 
+- DQ had the highest positive return of 199.4% but also the lowest amount of stocks traded
+
+#### Findings for 2018
+- All stocks, except ENPH and RUN, had a negative annual return
+- ENPH and RUN both had high volume of stocks traded
+- DQ dropped 62.6% but had more stocks traded in comparison to 2017
+
+### Conclusion on Findings
+Based on our findings for 2017 and 2018, I do not think we have enough information to make a conclusion on which green energy stocks to invest in. In 2017, it was a mostly positive year across the board for all the green energy stocks analyzed. In 2018, it was the opposite where most stocks had a negative annual return. We would need to do more research to see if there were any outside factors or events that may have occurred those years that would cause an overall affect on the stock market. Based on the total daily volumes, we cannot say there is a direct correlation between high volume of stocks traded and how well the stock is doing.
 
 ## Summary
 
