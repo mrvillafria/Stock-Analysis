@@ -12,7 +12,7 @@ The analysis performed compares the total daily volumes and year returns for 12 
 ### Stock Analysis of Total Daily Volumes and Year Returns for 2017 and 2018
 ![VBA_Stock_Analysis_2017](/Resources/VBA_Stock_Analysis_2017.PNG) <img height="350" hspace="20"/> ![VBA_Stock_Analysis_2018](/Resources/VBA_Stock_Analysis_2018.PNG)
 
-For this project, we wanted to look at the total daily volumes and year returns for the 12 green energy stocks above. The total daily volumes show often the stock was traded. This was calculated by summing up all the daily volumes for each stock. The yearly return shows the percentage increase or decrease in in stock price. We first had to find the price of the stock at the beginning of the year and the price of the stock at the end of the year. Then we divided the ending price by the starting price and subtracted 1 to get the yearly return for each stock. The two charts above show our results for 2017 and 2018. 
+For this project, we wanted to look at the total daily volumes and year returns for the 12 green energy stocks pictured above. The total daily volumes show how often the stock was traded. This was calculated by summing up all the daily volumes for each stock. The yearly return shows the percentage increase or decrease in the stock price. We first had to find the price of the stock at the beginning of the year and the price of the stock at the end of the year. Then we divided the ending price by the starting price and subtracted 1 to get the yearly return for each stock. The two charts above show our results for 2017 and 2018. 
 
 #### Findings for 2017
 - All stocks, except for TERP, had a positive annual return
