@@ -10,6 +10,11 @@ The purpose of this project was to help Steve and his parents analyze green ener
 The analysis performed compares the total daily volumes and year returns for 12 green energy stocks. We initially used our VBA scripting to account for 12 stocks but decided to refactor our code to account for a larger dataset.
 
 ### Stock Analysis of Total Daily Volumes and Year Returns for 2017 and 2018
+
+<p float="left">
+  <img src="Resources/VBA_Stock_Analysis_2017.PNG" width="100" />
+  <img src="Resources/VBA_Stock_Analysis_2018.PNG" width="100" /> 
+</p>
 ![VBA_Stock_Analysis_2017](/Resources/VBA_Stock_Analysis_2017.PNG)                    ![VBA_Stock_Analysis_2018](/Resources/VBA_Stock_Analysis_2018.PNG)
 
 
