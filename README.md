@@ -34,14 +34,14 @@ The original script went through the following steps:
 1. Format the output sheet on All Stocks Analysis worksheet
 2. Initialize array of all tickers
 3. 
-a. Initialize variables for starting price and ending price
-b. Activate data worksheet
-c. Get the number of rows to loop over
+i. Initialize variables for starting price and ending price
+ii. Activate data worksheet
+ii. Get the number of rows to loop over
 4. Loop through tickers
 5. loop through rows in the data
-a. Get total volume for current ticker
-b. Get starting price for current ticker
-c. Get ending price for current ticker
+i. Get total volume for current ticker
+ii. Get starting price for current ticker
+iii. Get ending price for current ticker
 6. Output data for current ticker
 
 
