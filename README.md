@@ -10,11 +10,11 @@ The purpose of this project was to help Steve and his parents analyze green ener
 The analysis performed compares the total daily volumes and year returns for 12 green energy stocks. We initially used our VBA scripting to account for 12 stocks but decided to refactor our code to account for a larger dataset.
 
 ### Stock Analysis of Total Daily Volumes and Year Returns for 2017 and 2018
+For this project, we wanted to look at the total daily volumes and year returns for the 12 green energy stocks pictured above. The total daily volumes show how often the stock was traded. This was calculated by summing up all the daily volumes for each stock. The yearly return shows the percentage increase or decrease in the stock price. We first had to find the price of the stock at the beginning of the year and the price of the stock at the end of the year. Then we divided the ending price by the starting price and subtracted 1 to get the yearly return for each stock. The two charts above show our results for 2017 and 2018. 
+
 |2017     |2018      |
 |------------|-------------|
 | ![VBA_Stock_Analysis_2017](/Resources/VBA_Stock_Analysis_2017.PNG)| ![VBA_Stock_Analysis_2018](/Resources/VBA_Stock_Analysis_2018.PNG)|
-
-For this project, we wanted to look at the total daily volumes and year returns for the 12 green energy stocks pictured above. The total daily volumes show how often the stock was traded. This was calculated by summing up all the daily volumes for each stock. The yearly return shows the percentage increase or decrease in the stock price. We first had to find the price of the stock at the beginning of the year and the price of the stock at the end of the year. Then we divided the ending price by the starting price and subtracted 1 to get the yearly return for each stock. The two charts above show our results for 2017 and 2018. 
 
 #### Findings for 2017
 - All stocks, except for TERP, had a positive annual return
@@ -30,7 +30,21 @@ For this project, we wanted to look at the total daily volumes and year returns 
 Based on our findings for 2017 and 2018, I do not think we have enough information to make a conclusion on which green energy stocks to invest in. In 2017, it was a mostly positive year across the board for all the green energy stocks analyzed. In 2018, it was the opposite where most stocks had a negative annual return. We would need to do more research to see if there were any outside factors or events that may have occurred those years that would cause an overall affect on the stock market. Based on the total daily volumes, we cannot say there is a direct correlation between high volume of stocks traded and how well the stock is doing.
 
 ### Analysis of Execution Times of the Original Script vs the Refactored Script
-Throughout Module 2, we created a script to compare the 12 green energy stocks that Steven selected.
+Throughout Module 2, we created a script to compare the 12 green energy stocks that Steven selected. While the original script worked for this data set, we refactored the script to loop through the data one time to collect all the information.
+
+|Original Code Execution Time     |Refactored Code Execution Time      |
+|------------|-------------|
+|![VBA_Challenge_Original_2017](/Resources/VBA_Challege_Original_2017.PNG)|![VBA_Challenge_2017](/Resources//VBA_Challenge_2017.PNG)|
+|![VBA_Challenge_Original_2018](/Resources/VBA_Challenge_Original_2018.PNG)|![VBA_Challenge_2018](/Resources//VBA_Challenge_2018.PNG)|
+
+### Conclusion on Stock Analysis
+This refactored code will help save time if Steven and his parents want to run a larger data set with more stocks.
+
+## Summary
+
+### Advantages and Disadvantages of Refactoring Code in General
+
+### Advantages and Disadvantages of the Original and Refactored VBA Script
 
 #### The original script went through the following steps:
 1. Format the output sheet on the "All Stocks Analysis" worksheet.
@@ -46,7 +60,7 @@ Throughout Module 2, we created a script to compare the 12 green energy stocks t
     3. Find the ending price for the current ticker.
 6. Output the data for the current ticker.
 
-While the original script worked for this data set, we refactored the script to loop through the data one time to collect all the information. This refactored code will help save time if Steven and his parents want to run a larger data set with more stocks. 
+
 
 #### The refactored script went through the following steps:
 1. Format the output sheet on All Stocks Analysis worksheet.
@@ -65,15 +79,3 @@ While the original script worked for this data set, we refactored the script to 
 8. Formatting
 
 While it may look like there are more steps for the refactored code, it runs faster than the original script. One big step that helped reduce the time was that the refactored scripting did not have a nested loop.
-
-|Original Code Execution Time     |Refactored Code Execution Time      |
-|------------|-------------|
-|![VBA_Challenge_Original_2017](/Resources/VBA_Challege_Original_2017.PNG)|![VBA_Challenge_2017](/Resources//VBA_Challenge_2017.PNG)|
-|![VBA_Challenge_Original_2018](/Resources/VBA_Challenge_Original_2018.PNG)|![VBA_Challenge_2018](/Resources//VBA_Challenge_2018.PNG)|
-
-
-## Summary
-
-### Advantages and Disadvantages of Refactoring Code in General
-
-### Advantages and Disadvantages of the Original and Refactored VBA Script
