@@ -33,14 +33,15 @@ Throughout Module 2, we created a script to compare the 12 green energy stocks t
 The original script went through the following steps:
 1. Format the output sheet on All Stocks Analysis worksheet
 2. Initialize array of all tickers
-3. a. Initialize variables for starting price and ending price
-3. b. Activate data worksheet
-3. c. Get the number of rows to loop over
+3. 
+a. Initialize variables for starting price and ending price
+b. Activate data worksheet
+c. Get the number of rows to loop over
 4. Loop through tickers
 5. loop through rows in the data
-5. a. Get total volume for current ticker
-5. b. get starting price for current ticker
-5. c. get ending price for current ticker
+a. Get total volume for current ticker
+b. Get starting price for current ticker
+c. Get ending price for current ticker
 6. Output data for current ticker
 
 
