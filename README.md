@@ -10,7 +10,9 @@ The purpose of this project was to help Steve and his parents analyze green ener
 The analysis performed compares the total daily volumes and year returns for 12 green energy stocks. We initially used our VBA scripting to account for 12 stocks but decided to refactor our code to account for a larger dataset.
 
 ### Stock Analysis of Total Daily Volumes and Year Returns for 2017 and 2018
-![VBA_Stock_Analysis_2017](/Resources/VBA_Stock_Analysis_2017.PNG) <img height="350" hspace="20"/> ![VBA_Stock_Analysis_2018](/Resources/VBA_Stock_Analysis_2018.PNG)
+|2017     |2018      |
+|------------|-------------|
+| ![VBA_Stock_Analysis_2017](/Resources/VBA_Stock_Analysis_2017.PNG) <img width="250"> | ![VBA_Stock_Analysis_2018](/Resources/VBA_Stock_Analysis_2018.PNG) <img width="250"> |
 
 For this project, we wanted to look at the total daily volumes and year returns for the 12 green energy stocks pictured above. The total daily volumes show how often the stock was traded. This was calculated by summing up all the daily volumes for each stock. The yearly return shows the percentage increase or decrease in the stock price. We first had to find the price of the stock at the beginning of the year and the price of the stock at the end of the year. Then we divided the ending price by the starting price and subtracted 1 to get the yearly return for each stock. The two charts above show our results for 2017 and 2018. 
 
