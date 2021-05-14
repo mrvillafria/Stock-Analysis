@@ -10,7 +10,7 @@ The purpose of this project was to help Steve and his parents analyze green ener
 The analysis performed compares the total daily volumes and year returns for 12 green energy stocks. We initially used our VBA scripting to account for 12 stocks but decided to refactor our code to account for a larger dataset.
 
 ### Stock Analysis of Total Daily Volumes and Year Returns for 2017 and 2018
-For this project, we wanted to look at the total daily volumes and year returns for the 12 green energy stocks pictured below. The total daily volumes show how often the stock was traded. This was calculated by summing up all the daily volumes for each stock. The yearly return shows the percentage increase or decrease in the stock price. We first had to find the price of the stock at the beginning of the year and the price of the stock at the end of the year. Then we divided the ending price by the starting price and subtracted 1 to get the yearly return for each stock. The two charts above show our results for 2017 and 2018. 
+For this project, we wanted to look at the total daily volumes and year returns for the 12 green energy stocks pictured below. The total daily volumes show how often the stock was traded. This was calculated by summing up all the daily volumes for each stock. The yearly return shows the percentage increase or decrease in the stock price. We first had to find the price of the stock at the beginning of the year and the price of the stock at the end of the year. Then we divided the ending price by the starting price and subtracted 1 to get the yearly return for each stock. If there was a positive annual return, we changed the cell to green and if there was a negative annual return, we changed the cell to red. The two charts above show our results for 2017 and 2018. 
 
 |2017     |2018      |
 |------------|-------------|
@@ -45,10 +45,10 @@ Based on our findings, the refactored code saved time in comparision to the orig
 ### Advantages and Disadvantages of Refactoring Code in General
 
 #### Advantages
-There are many advantages to refactoring code. As you can see from our analysis above, refactoring code to run more efficiently can save time when executing. This will be especially important if the code has a large dataset to run through. In the business world, time is valuable so people will be more satisfied if they can quickly receive their results. Another advantage is if you improve the logic of the code, it will be easier for someone else to look at it in the future, which will make it easier for them to troubleshoot. Refactoring code is also beneficial because while you are reviewing the original code, you can find any bugs that need to be fixed.
+There are many advantages to refactoring code. As you can see from our analysis above, refactoring code to run more efficiently can save time when executing. This will be especially important if the code has a large dataset to run through. In the business world, time is valuable so people will be more satisfied if they can quickly receive their results. Another advantage is if you improve the logic of the code, it will be easier for someone else to look at it and troubleshoot in the future. Refactoring code is also beneficial because while you are reviewing the original code, you can find any bugs that need to be fixed.
 
 #### Disadvantages
-Although there are a lot of advantages to refactoring your code, one majority downfall is the extra time it takes to edit the code. Not only do you have think of better logic but there will always be additional troubleshooting. Depending on how long your deadline is to have the refactored code in place, it may be very risky.
+Although there are a lot of advantages to refactoring your code, one major downfall is the extra time it takes to edit the code. Not only do you have to think of better logic but there will always be additional troubleshooting. Depending on how long your deadline is to have the refactored code in place, it may be very risky.
 
 ### Advantages and Disadvantages of the Original and Refactored VBA Script
 There are some clear advantages and disadvantages of the original script versus the refactored script. But first, I would like to outline the steps for both the original and refactored VBA scripts:
@@ -87,4 +87,4 @@ There are some clear advantages and disadvantages of the original script versus 
 While it may look like there are more steps for the refactored code, it runs faster than the original script. One big step that helped reduce the time was that the refactored scripting did not have a nested loop.
 
 #### Disadvantages
-One disadvantage of refactoring the code was editing and troubleshooting the script was very time consuming. Changing the logic of the scripting by adding 3 more arrays and removing the nested loop took longer for me to think through than expected.
+One disadvantage of refactoring the code was editing and troubleshooting the script was very time consuming. Changing the logic of the script by adding 3 more arrays and removing the nested loop took longer for me to think through than expected.
