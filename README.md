@@ -38,7 +38,7 @@ The original script went through the following steps:
 3. Prepare for the analysis of tickers.
   1. Initialize variables for the starting price and ending price.
   2. Activate the data worksheet.
-  3. Find the number of rows to loop over.
+  3. Find the number of rows to loop over. 
 4. Loop through the tickers.
 5. Loop through rows in the data.
   1. Find the total volume for the current ticker.
