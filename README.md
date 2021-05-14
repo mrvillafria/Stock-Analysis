@@ -24,8 +24,25 @@ For this project, we wanted to look at the total daily volumes and year returns 
 - ENPH and RUN both had high volume of stocks traded
 - DQ dropped 62.6% but had more stocks traded in comparison to 2017
 
-### Conclusion on Findings
+### Conclusion on Stock Analysis
 Based on our findings for 2017 and 2018, I do not think we have enough information to make a conclusion on which green energy stocks to invest in. In 2017, it was a mostly positive year across the board for all the green energy stocks analyzed. In 2018, it was the opposite where most stocks had a negative annual return. We would need to do more research to see if there were any outside factors or events that may have occurred those years that would cause an overall affect on the stock market. Based on the total daily volumes, we cannot say there is a direct correlation between high volume of stocks traded and how well the stock is doing.
+
+### Analysis of Execution Times of the Original Script vs the Refactored Script
+Throughout Module 2, we created a script to compare the 12 green energy stocks that Steven selected.
+
+The original script went through the following steps:
+1. Format the output sheet on All Stocks Analysis worksheet
+2. Initialize array of all tickers
+3. a. Initialize variables for starting price and ending price
+3. b. Activate data worksheet
+3. c. Get the number of rows to loop over
+4. Loop through tickers
+5. loop through rows in the data
+5. a. Get total volume for current ticker
+5. b. get starting price for current ticker
+5. c. get ending price for current ticker
+6. Output data for current ticker
+
 
 ## Summary
 
