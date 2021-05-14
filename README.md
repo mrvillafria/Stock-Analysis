@@ -32,7 +32,7 @@ Based on our findings for 2017 and 2018, I do not think we have enough informati
 ### Analysis of Execution Times of the Original Script vs the Refactored Script
 Throughout Module 2, we created a script to compare the 12 green energy stocks that Steven selected.
 
-The original script went through the following steps:
+#### The original script went through the following steps:
 1. Format the output sheet on the "All Stocks Analysis" worksheet.
 2. Initialize an array of all tickers.
 3. Prepare for the analysis of tickers.
@@ -48,7 +48,7 @@ The original script went through the following steps:
 
 While the original script worked for this data set, we refactored the script to loop through the data one time to collect all the information. This refactored code will help save time if Steven and his parents want to run a larger data set with more stocks. 
 
-The refactored script went through the following steps:
+#### The refactored script went through the following steps:
 1. Format the output sheet on All Stocks Analysis worksheet.
 2. Initialize array of all tickers.
     1. Activate data worksheet.
