@@ -46,7 +46,11 @@ The original script went through the following steps:
   - Find the ending price for the current ticker.
 6. Output the data for the current ticker.
 
-
+|Original Code Execution Time     |Refactored Code Execution Time      |
+|------------|-------------|
+|![VBA_Challenge_Original_2017](/Resources/VBA_Challenge_Original_2017.PNG)|![VBA_Challenge_2017](/Resources//VBA_Challenge_2017.PNG)|
+|------------|-------------|
+|![VBA_Challenge_Original_2018](/Resources/VBA_Challenge_Original_2018.PNG)|![VBA_Challenge_2018](/Resources//VBA_Challenge_2018.PNG)|
 
 
 ## Summary
