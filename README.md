@@ -46,10 +46,29 @@ The original script went through the following steps:
   - Find the ending price for the current ticker.
 6. Output the data for the current ticker.
 
+While the original script worked for this data set, we refactored the script to loop through the data one time to collect all the information. 
+
+The refactored script went through the following steps:
+1. Format the output sheet on All Stocks Analysis worksheet.
+2. Initialize array of all tickers.
+- Activate data worksheet.
+- Get the number of rows to loop over.
+3. Create a ticker Index.
+4. Create 3 output arrays: tickerVolumes, tickerStartingPrices, tickerEndingPrices.
+5. Create a for loop to initialize the tickerVolumes to zero.
+6. Loop over all the rows in the spreadsheet.
+- Increase volume for current ticker.
+- Find the starting price by checking if the current row is the first row with the selected tickerIndex.
+- Find the ending price by checking if the current row is the last row with the selected tickerIndex. 
+- Increase the tickerIndex.
+7. Loop through your arrays to output the Ticker, Total Daily Volume, and Return.
+8. Formatting
+
+While it may look like there are more steps for the refactored code, it runs faster than the original script. One big step that helped reduce the time was that the refactored scripting did not have a nested loop.
+
 |Original Code Execution Time     |Refactored Code Execution Time      |
 |------------|-------------|
 |![VBA_Challenge_Original_2017](/Resources/VBA_Challege_Original_2017.PNG)|![VBA_Challenge_2017](/Resources//VBA_Challenge_2017.PNG)|
-|------------|-------------|
 |![VBA_Challenge_Original_2018](/Resources/VBA_Challenge_Original_2018.PNG)|![VBA_Challenge_2018](/Resources//VBA_Challenge_2018.PNG)|
 
 
