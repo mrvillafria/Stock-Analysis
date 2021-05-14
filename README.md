@@ -48,7 +48,7 @@ The original script went through the following steps:
 
 |Original Code Execution Time     |Refactored Code Execution Time      |
 |------------|-------------|
-|![VBA_Challenge_Original_2017](/Resources/VBA_Challenge_Original_2017.PNG)|![VBA_Challenge_2017](/Resources//VBA_Challenge_2017.PNG)|
+|![VBA_Challenge_Original_2017](/Resources/VBA_Challege_Original_2017.PNG)|![VBA_Challenge_2017](/Resources//VBA_Challenge_2017.PNG)|
 |------------|-------------|
 |![VBA_Challenge_Original_2018](/Resources/VBA_Challenge_Original_2018.PNG)|![VBA_Challenge_2018](/Resources//VBA_Challenge_2018.PNG)|
 
