@@ -66,6 +66,7 @@ There are some clear advantages and disadvantages of the original script versus 
     2. Find the starting price for the current ticker.
     3. Find the ending price for the current ticker.
 6. Output the data for the current ticker.
+7. Formatting
 
 #### The refactored script went through the following steps:
 1. Format the output sheet on All Stocks Analysis worksheet.
