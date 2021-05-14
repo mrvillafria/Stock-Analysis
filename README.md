@@ -36,31 +36,31 @@ The original script went through the following steps:
 1. Format the output sheet on the "All Stocks Analysis" worksheet.
 2. Initialize an array of all tickers.
 3. Prepare for the analysis of tickers.
-  - Initialize variables for the starting price and ending price.
-  - Activate the data worksheet.
-  - Find the number of rows to loop over.
+  1. Initialize variables for the starting price and ending price.
+  2. Activate the data worksheet.
+  3. Find the number of rows to loop over.
 4. Loop through the tickers.
 5. Loop through rows in the data.
-  - Find the total volume for the current ticker.
-  - Find the starting price for the current ticker.
-  - Find the ending price for the current ticker.
+  1. Find the total volume for the current ticker.
+  2. Find the starting price for the current ticker.
+  3. Find the ending price for the current ticker.
 6. Output the data for the current ticker.
 
-While the original script worked for this data set, we refactored the script to loop through the data one time to collect all the information. 
+While the original script worked for this data set, we refactored the script to loop through the data one time to collect all the information. This refactored code will help save time if Steven and his parents want to run a larger data set with more stocks. 
 
 The refactored script went through the following steps:
 1. Format the output sheet on All Stocks Analysis worksheet.
 2. Initialize array of all tickers.
-- Activate data worksheet.
-- Get the number of rows to loop over.
+  1. Activate data worksheet.
+  2. Get the number of rows to loop over.
 3. Create a ticker Index.
 4. Create 3 output arrays: tickerVolumes, tickerStartingPrices, tickerEndingPrices.
 5. Create a for loop to initialize the tickerVolumes to zero.
 6. Loop over all the rows in the spreadsheet.
-- Increase volume for current ticker.
-- Find the starting price by checking if the current row is the first row with the selected tickerIndex.
-- Find the ending price by checking if the current row is the last row with the selected tickerIndex. 
-- Increase the tickerIndex.
+  1. Increase volume for current ticker.
+  2. Find the starting price by checking if the current row is the first row with the selected tickerIndex.
+  3. Find the ending price by checking if the current row is the last row with the selected tickerIndex. 
+  4. Increase the tickerIndex.
 7. Loop through your arrays to output the Ticker, Total Daily Volume, and Return.
 8. Formatting
 
