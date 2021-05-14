@@ -1,7 +1,7 @@
 # VBA of Wall Street
 
 ## Overview of Project
-For this week's project, we are using Visual Basic for Applications, also known as VBA, to analyze green energy stock data for the years of 2017 and 2018. VBA is a programming language that works with Excel so we can automate tasks and perform complex analyses. Instead of using Excel alone, we can now write scripts to create macros, or sub routines, that will allow us to read and write to cells, process functions, perform calculations, and generate tables and graphs. Throughout Module 2, we created a solution to compare 12 different green energy stocks, but we are looking to refactor the code to run faster. To make the code run more efficiently, we improve the logic of the existing code while keeping the same functionality.
+For this week's project, we are using Visual Basic for Applications, also known as VBA, to analyze green energy stock data for the years of 2017 and 2018. VBA is a programming language that works with Excel so we can automate tasks and perform complex analyses. Instead of using Excel alone, we can now write scripts to create macros, or sub routines, that will allow us to read and write to cells, process functions, perform calculations, and generate tables and graphs. Throughout Module 2, we created a solution to compare 12 different green energy stocks, but we are looking to refactor the code to run faster. To make the code run more efficiently, we improved the logic of the existing code while keeping the same functionality.
 
 ### Purpose
 The purpose of this project was to help Steve and his parents analyze green energy stock data. Although Steve’s parents already invested in Daqo New Energy Corporation, Steve wanted to analyze 11 other green energy stock options to compare their total daily volume and yearly return for 2017 and 2018. While we already had VBA code to read and write out our findings for the 12 green energy stocks, we also refactored the code to accommodate for a larger dataset with more stocks. Steve and his parents will now be able to view data for thousands of stocks and will be more informed on which green energy stock to invest in.
@@ -30,14 +30,14 @@ For this project, we wanted to look at the total daily volumes and year returns 
 Based on our findings for 2017 and 2018, I do not think we have enough information to make a conclusion on which green energy stocks to invest in. In 2017, it was a mostly positive year across the board for all the green energy stocks analyzed. In 2018, it was the opposite where most stocks had a negative annual return. We would need to do more research to see if there were any outside factors or events that may have occurred those years that would cause an overall affect on the stock market. We could also run our script against more data if it was available to compare additional years. Based on the total daily volumes, we cannot say there is a direct correlation between high volume of stocks traded and how well the stock is doing.
 
 ### Analysis of Execution Times of the Original Script vs the Refactored Script
-Throughout Module 2, we created a script to compare the 12 green energy stocks that Steven selected. While the original script worked for this data set, we refactored the script to loop through the data one time to collect all the information.
+Throughout Module 2, we created a script to compare the 12 green energy stocks that Steven selected. While the original script worked for this data set, we refactored the script to loop through the data one time to collect all the information. We used VBA's Timer function to measure the code performance and a message box to display the elapsed time. 
 
 |Original Code Execution Time     |Refactored Code Execution Time      |
 |------------|-------------|
 |![VBA_Challenge_Original_2017](/Resources/VBA_Challege_Original_2017.PNG)|![VBA_Challenge_2017](/Resources//VBA_Challenge_2017.PNG)|
 |![VBA_Challenge_Original_2018](/Resources/VBA_Challenge_Original_2018.PNG)|![VBA_Challenge_2018](/Resources//VBA_Challenge_2018.PNG)|
 
-### Conclusion on Stock Analysis
+#### Conclusion on Execution Times
 Based on our findings, the refactored code saved time in comparision to the original code. This will help save processing time if Steven and his parents want to run a larger data set with more stocks.
 
 ## Summary
