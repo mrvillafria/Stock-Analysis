@@ -78,6 +78,7 @@ There are some clear advantages and disadvantages of the original script versus 
 8. Formatting
 
 #### Advantages
-While it may look like there are more steps for the refactored code, it runs faster than the original script. One big step that helped reduce the time was that the refactored scripting did not have a nested loop. 
+While it may look like there are more steps for the refactored code, it runs faster than the original script. One big step that helped reduce the time was that the refactored scripting did not have a nested loop.
 
 #### Disadvantages
+One disadvantage of refactoring the code was editing and troubleshooting the script was very time consuming. Changing the logic of the scripting by adding 3 more arrays and removing the nested loop took longer for me to think through than expected.
